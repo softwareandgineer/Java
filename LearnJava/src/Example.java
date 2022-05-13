@@ -70,8 +70,8 @@ public class Example {
         // Literals are the kinds of data found within a type
         // E.g. The literals of a boolean are, "True", and "False"
 
-        bool b1 = true;
-        bool b2 = false;
+        boolean b1 = true;
+        boolean b2 = false;
 
         // E.g. Literals of an int are decimal, hexadecimal, octal, and binary.
 
@@ -150,7 +150,7 @@ public class Example {
 
         //conversion
         float f = 900.0f;
-        l = (int)f;
+        int l = (int)f;
 
     }
 
