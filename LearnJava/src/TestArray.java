@@ -1,5 +1,4 @@
 public class TestArray {
-
     public static int findMax(int[] array)
     {
         int max = array[0];

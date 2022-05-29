@@ -1,4 +1,4 @@
-class LogicalOpTable {
+/* class LogicalOpTable {
     public static void main(String args []) {
 
         boolean p, q;
@@ -24,3 +24,5 @@ class LogicalOpTable {
         System.out.print()
     }
 }
+
+ */
