@@ -3,21 +3,27 @@ public class Exercise3_23 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the x and y coords");
-        int x = input.nextInt();
-        int y = input.nextInt();
+        float x = input.nextFloat();
+        float y = input.nextFloat();
 
-        if (x == 1)
-            System.out.println("You are inside");
-        if (x == 2)
-            System.out.println("You are inside");
-        if (x == 3)
-            System.out.println("You are inside");
-
-        if (y == 1)
-            System.out.println("You are outside");
-        if (y == 2)
-            System.out.println("You are outside");
-        if (y == 3)
-            System.out.println("You are outside");
+        if (x > 5){
+            System.out.println("You are outside the rectangle");
+            return;
+        }
+        if (x < -5){
+            System.out.println("You are outside the rectangle");
+            return;
+        }
+        if (y > 2.5){
+            System.out.println("You are outside the rectangle");
+            return;
+        }
+        if (y < -2.5){
+            System.out.println("You are outside the rectangle");
+            return;
+        }
+        else{
+            System.out.println("You are inside the rectangle");
+        }
     }
 }
