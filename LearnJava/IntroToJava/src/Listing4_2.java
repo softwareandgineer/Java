@@ -5,9 +5,9 @@ public class Listing4_2 {
 
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the first city");
-        int city1 = input.nextInt();
+        Float city1 = input.nextFloat();
         System.out.print("Enter the second city");
-        int city2 = input.nextInt();
+        Float city2 = input.nextFloat();
 
         if (city1.compareTo(city2) < 0)
             System.out.println("The cities in alphabetical order are " + city1 + " " + city2);
