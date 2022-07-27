@@ -1,0 +1,13 @@
+//Future tuition
+public class Listing5_10 {
+    public static void main(String[] args){
+        double tuition = 10000; //tuition of year 0
+        int year = 0; //base year
+        while (tuition < 20000){
+            tuition = tuition * 1.07;
+            year++;
+        }
+        System.out.println("Tuition will be doubled in " + year + " years");
+        System.out.printf("Tuition will cost $%.2f in %1d years", tuition, year);
+    }
+}
